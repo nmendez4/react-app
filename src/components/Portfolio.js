@@ -44,6 +44,26 @@ const projects = [
         description: "A tech blog that allows users to sign in and view posts of their own and the posts of other users",
         repository: "https://github.com/nmendez4/tech-blog",
         live: "https://tech-nically-a-blog.herokuapp.com/",
+    },
+    {
+        id: 4,
+        title: "ecommerce-back-end",
+        languages: "JavaScript, Insomnia",
+        packages: "Node.js, Express.js, Sequelize, ORM",
+        image: "/images/e_commerce-ORM.png",
+        description: "This application allows the user to access a storage system that contains items from a 'marketplace', and then view their id, product-name, category, price and stock",
+        repository: "https://github.com/nmendez4/ecommerce-back-end",
+        live: "N/A",
+    },
+    {
+        id: 5,
+        title: "mysql-employee-tracker",
+        languages: "JavaScript",
+        packages: "Node.js, inquirer.js, MySQL2, console.table",
+        image: "/images/employee-tracker.png",
+        description: "This application allows the user to access an employee database, view all employees, departments, managers, salaries and roles for all employees at the company",
+        repository: "https://github.com/nmendez4/mysql-employee-tracker",
+        live: "N/A",       
     }
 ];
 
