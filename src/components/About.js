@@ -5,10 +5,10 @@ import React from "react";
 function About() {
     return (
         <div>
-            <p className="content is-medium">  </p>
+            <p className="content">  </p>
             <hr />
-            <img className="my-photo" src={process.env.PUBLIC_URL + '/images/profile'} alt="Nicholas E Mendez" />
-            <p className="content is-italic mt-4">
+            <img className="my-photo" src={process.env.PUBLIC_URL + '/images/my-photo.jpeg'} alt="Nicholas E Mendez" />
+            <p className="content">
                 Hello my name is Nicholas Mendez, I'm currently studying to become a full stack developer, I'm interested in UI and revamping applications to 
                 fit into the new technological age
             </p>

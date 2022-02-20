@@ -4,21 +4,21 @@ import React from "react";
 
 function Resume() {
     return (
-        <div className="columns">
-            <div className="column">
-                <p className="content is-medium">My Resumé</p>
+        <div className="container">
+            <div className="col">
+                <p className="card">My Resumé</p>
                 <hr />
 
-                <a className="button is-primary" href={process.env.PUBLIC_URL + " /nicholas-mendez-resume.pdf"} target="_blank" rel="noreferrer">
+                <a className="button" href={process.env.PUBLIC_URL + "/nicholas-e-mendez-resume.pdf"} target="_blank" rel="noreferrer">
                     <span className="icon">
-                        <i className="fas fa-download"></i>
+                        <i className="fa fa-download"></i>
                     </span>
                     <span>Download my Resumé Here!</span>
                 </a>
 
             </div>
-            <div className="column">
-                <p className="content is-medium">Technical Skills</p>
+            <div className="col">
+                <p className="card">Technical Skills</p>
                 <hr />
                 <ul>
                     <li>HTML, CSS & Markdown</li>

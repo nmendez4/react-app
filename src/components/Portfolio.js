@@ -6,51 +6,51 @@ import Project from "./Project";
 const projects = [
     // input projects/module homework here 4-5 should be plenty
     {
-        id: ,
-        title: ,
-        languages: ,
-        packages: ,
-        image: ,
-        description: ,
-        repository: ,
-        live: ,
+        id: 0,
+        title: "Take It or Leave It",
+        languages: "JavaScript, HTML, CSS",
+        packages: "Node.js, Express.js, Handlebars.js, MySQL, Sequelize",
+        image: "/images/take-it-or-leave-it/png",
+        description: "A comprehensive platform that lets users sign in, build a profile, list, buy and/or sell items to and from other sellers",
+        repository: "https://github.com/nmendez4/take-it-or-leave-it",
+        live: "https://desolate-dusk-43697.herokuapp.com/",
     },
     {
-        id: ,
-        title: ,
-        languages: ,
-        packages: ,
-        image: ,
-        description: ,
-        repository: ,
-        live: ,
+        id: 1,
+        title: "budget-app",
+        languages: "JavaScript",
+        packages: "MongoDB, Mongoose, Node.js, Express.js",
+        image: "/images/budget-app.png",
+        description: "An application that allows the user to track their spending, with the extra added benefit of offline tracking that will allow a data push once internet connection is restored",
+        repository: "https://github.com/nmendez4/budget-app",
+        live: "https://budget-app-pwa4.herokuapp.com/",
     },
     {
-        id: ,
-        title: ,
-        languages: ,
-        packages: ,
-        image: ,
-        description: ,
-        repository: ,
-        live: ,
+        id: 2,
+        title: "social-network-api",
+        languages: "JavaScript",
+        packages: "MongoDB, Mongoose, Node.js, Express.js",
+        image: "/images/social-network-api.png",
+        description: "An application that allows the user to sign into a social media app, post, comment, and like on other user's posts ",
+        repository: "https://github.com/nmendez4/social-network-api",
+        live: "N/A",
     },
     {
-        id: ,
-        title: ,
-        languages: ,
-        packages: ,
-        image: ,
-        description: ,
-        repository: ,
-        live: ,
+        id: 3,
+        title: "tech-blog",
+        languages: "JavaScript",
+        packages: "Node.js, Express.js, Handlebars.js, MySQL, Sequelize",
+        image: "/images/tech_blog.png",
+        description: "A tech blog that allows users to sign in and view posts of their own and the posts of other users",
+        repository: "https://github.com/nmendez4/tech-blog",
+        live: "https://tech-nically-a-blog.herokuapp.com/",
     }
 ];
 
 function Portfolio() {
     return (
         <div>
-            <p className="content is-medium">Portfolio</p>
+            <p className="content">Portfolio</p>
             <hr />
 
             <Project projects={projects} />

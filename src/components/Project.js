@@ -5,32 +5,32 @@ import React from "react";
 function Project(props) {
     return (
       <div>
-        <div className="columns is-desktop is-justify-content-center is-flex-wrap-wrap is-flex-direction-row">
+        <div className="container">
           {props.projects.map((project) => (
-            <div className="column is-half">
+            <div className="col">
               <div className="card">
                 <div className="card-image">
-                  <figure className="image is-4by3">
+                  <figure className="image">
                     <a href={project.live} target="_blank" rel="noreferrer">
                       <img src={process.env.PUBLIC_URL + project.image} alt="Placeholder project" />
                     </a>
                   </figure>
                 </div>
-                <div className="card-content">
+                <div className="card">
                   <div className="media">
                     <div className="media-left"></div>
                     <div className="media-content">
-                      <p className="title is-4" key={project.id}>
+                      <p className="title" key={project.id}>
                         {project.title}
                       </p>
                     </div>
                   </div>
   
-                  <div className="content has-text-left">
+                  <div className="col">
                     {project.description}
                     <br />
                     <br />
-                    <div className="content is-family-code">
+                    <div className="card">
                       Languages: {project.languages}
                       <br />
                       NPM Packages: {project.packages}
@@ -39,7 +39,7 @@ function Project(props) {
                       <footer className="card-footer">
                         <a
                           href={project.repo}
-                          className="card-footer-item"
+                          className="card"
                           target="_blank" rel="noreferrer"
                         >
                           See the Repo!
@@ -47,7 +47,7 @@ function Project(props) {
                         <br />
                         <a
                           href={project.live}
-                          className="card-footer-item"
+                          className="card"
                           target="_blank" rel="noreferrer"
                         >
                           See the Live Site!

@@ -28,9 +28,9 @@ function Header() {
 
     return (
         <div>
-            <nav className='navbar'>
-                <div className='navbar-brand'>
-                    <a className='navbar-item' rel='noreferrer' target='_blank' href='https://github.com/nmendez4?tab=repositories'>
+            <nav className='nav'>
+                <div className='nav-item'>
+                    <a className='nav-link' rel='noreferrer' target='_blank' href='https://github.com/nmendez4?tab=repositories'>
                         <span className='content is-large'>Nicholas E Mendez</span>
                     </a>
                 </div>
