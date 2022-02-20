@@ -38,7 +38,7 @@ function Project(props) {
                     <div className="card">
                       <footer className="card-footer">
                         <a
-                          href={project.repo}
+                          href={project.repository}
                           className="card"
                           target="_blank" rel="noreferrer"
                         >

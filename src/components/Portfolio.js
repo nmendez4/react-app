@@ -10,7 +10,7 @@ const projects = [
         title: "Take It or Leave It",
         languages: "JavaScript, HTML, CSS",
         packages: "Node.js, Express.js, Handlebars.js, MySQL, Sequelize",
-        image: "/images/take-it-or-leave-it/png",
+        image: "/images/take-it-or-leave-it.png",
         description: "A comprehensive platform that lets users sign in, build a profile, list, buy and/or sell items to and from other sellers",
         repository: "https://github.com/nmendez4/take-it-or-leave-it",
         live: "https://desolate-dusk-43697.herokuapp.com/",
@@ -50,7 +50,7 @@ const projects = [
 function Portfolio() {
     return (
         <div>
-            <p className="content">Portfolio</p>
+            <p className="card">Portfolio</p>
             <hr />
 
             <Project projects={projects} />

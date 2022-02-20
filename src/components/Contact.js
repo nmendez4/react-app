@@ -60,7 +60,7 @@ function Contact() {
                         <p className="is-danger">{errorMessage}</p>
                     </div>
                 )}
-                <button className="button is-medium is-primary is-fullwidth" data-testid="button" type="submit">Submit</button>
+                <button className="button" data-testid="button" type="submit">Submit</button>
             </form>
         </div>
     );

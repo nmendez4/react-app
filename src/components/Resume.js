@@ -13,7 +13,7 @@ function Resume() {
                     <span className="icon">
                         <i className="fa fa-download"></i>
                     </span>
-                    <span>Download my Resumé Here!</span>
+                    <span className="font">Download my Resumé Here!</span>
                 </a>
 
             </div>

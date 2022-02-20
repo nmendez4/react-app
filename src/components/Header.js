@@ -31,7 +31,7 @@ function Header() {
             <nav className='nav'>
                 <div className='nav-item'>
                     <a className='nav-link' rel='noreferrer' target='_blank' href='https://github.com/nmendez4?tab=repositories'>
-                        <span className='content is-large'>Nicholas E Mendez</span>
+                        <span className='card my-name'>Nicholas E Mendez</span>
                     </a>
                 </div>
             </nav>

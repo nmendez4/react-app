@@ -1,5 +1,68 @@
 /* index.css file */
 
 body {
-    margin: auto;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    background-color: #4FB286;
+}
+
+.font {
+    color: #ffffff;
+}
+
+.my-name {
+    color: #4FB286;
+}
+
+.nav {
+    text-align:center;
+    display:flexbox;
+    width: 100%;
+    background-color: #CE8147;
+}
+
+div.nav {
+    padding-top: 2em;
+    margin-bottom: 2em;
+}
+
+.nav .nav-item .nav-link .nav-tabs {
+    display: inline-block;
+}
+
+main {
+    margin-top: 2em;
+    margin-bottom: 2em;
+    margin-left: 20em;
+    margin-right: 20em;
+}
+
+.card {
+
+}
+
+.card img {
+    max-block-size: 150px;
+}
+
+.my-photo {
+    clip-path: circle();
+    width: 200px;
+}
+
+.label {
+    text-align: center;
+}
+
+footer {
+    background-color: #0F0F0F;
+}
+
+@media only screen and (max-width: 1024px) {
+    main {
+        margin-top: 2em;
+        margin-bottom: 2em;
+        margin-left: 2em;
+        margin-right: 2em;
+    }
 }

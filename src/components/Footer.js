@@ -5,7 +5,7 @@ import React from "react";
 function Footer() {
     return (
         <footer>
-            <div className="content">
+            <div className="card">
                 <p>
                     <strong>My Web Development Portfolio</strong> built with React! by{" "}
                     <a href="https://github.com/nmendez4" target="_blank" rel="noreferrer">
