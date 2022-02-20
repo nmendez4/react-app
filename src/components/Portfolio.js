@@ -6,16 +6,44 @@ import Project from "./Project";
 const projects = [
     // input projects/module homework here 4-5 should be plenty
     {
-
+        id: ,
+        title: ,
+        languages: ,
+        packages: ,
+        image: ,
+        description: ,
+        repository: ,
+        live: ,
     },
     {
-
+        id: ,
+        title: ,
+        languages: ,
+        packages: ,
+        image: ,
+        description: ,
+        repository: ,
+        live: ,
     },
     {
-
+        id: ,
+        title: ,
+        languages: ,
+        packages: ,
+        image: ,
+        description: ,
+        repository: ,
+        live: ,
     },
     {
-
+        id: ,
+        title: ,
+        languages: ,
+        packages: ,
+        image: ,
+        description: ,
+        repository: ,
+        live: ,
     }
 ];
 
