@@ -7,6 +7,16 @@ const projects = [
     // input projects/module homework here 4-5 should be plenty
     {
         id: 0,
+        title: "Just Tech News",
+        languages: "Java, HTML, JavaScript, CSS",
+        packages: "SpringBoot, Maven",
+        image: "/images/justtechnews.png",
+        description: "A tech news platform for all to chat about the latest and greatest in IT",
+        repository: "https://github.com/nmendez4/tech-news-java-api",
+        live: "https://cc-java-api-24.herokuapp.com/"
+    },
+    {
+        id: 1,
         title: "Take It or Leave It",
         languages: "JavaScript, HTML, CSS",
         packages: "Node.js, Express.js, Handlebars.js, MySQL, Sequelize",
@@ -16,7 +26,7 @@ const projects = [
         live: "https://desolate-dusk-43697.herokuapp.com/",
     },
     {
-        id: 1,
+        id: 2,
         title: "budget-app",
         languages: "JavaScript",
         packages: "MongoDB, Mongoose, Node.js, Express.js",
@@ -26,7 +36,7 @@ const projects = [
         live: "https://budget-app-pwa4.herokuapp.com/",
     },
     {
-        id: 2,
+        id: 3,
         title: "social-network-api",
         languages: "JavaScript",
         packages: "MongoDB, Mongoose, Node.js, Express.js",
@@ -36,7 +46,7 @@ const projects = [
         live: "N/A",
     },
     {
-        id: 3,
+        id: 4,
         title: "tech-blog",
         languages: "JavaScript",
         packages: "Node.js, Express.js, Handlebars.js, MySQL, Sequelize",
@@ -46,7 +56,7 @@ const projects = [
         live: "https://tech-nically-a-blog.herokuapp.com/",
     },
     {
-        id: 4,
+        id: 5,
         title: "ecommerce-back-end",
         languages: "JavaScript, Insomnia",
         packages: "Node.js, Express.js, Sequelize, ORM",
@@ -56,7 +66,7 @@ const projects = [
         live: "N/A",
     },
     {
-        id: 5,
+        id: 6,
         title: "mysql-employee-tracker",
         languages: "JavaScript",
         packages: "Node.js, inquirer.js, MySQL2, console.table",
@@ -70,8 +80,8 @@ const projects = [
 function Portfolio() {
     return (
         <div>
-            <p className="card">Portfolio</p>
-            <hr />
+            <p className="card">My Portfolio Work</p>
+            {/* <hr /> */}
 
             <Project projects={projects} />
         </div>

@@ -9,11 +9,12 @@ function Resume() {
                 <p className="card">My Resumé</p>
                 <hr />
 
-                <a className="button" href={process.env.PUBLIC_URL + "/nicholas-e-mendez-resume.pdf"} target="_blank" rel="noreferrer">
+                <a className="button" href={process.env.PUBLIC_URL + "/NicholasEMendez9922.pdf"} target="_blank" rel="noreferrer">
                     <span className="icon">
                         <i className="fa fa-download"></i>
                     </span>
                     <span className="font">Download my Resumé Here!</span>
+                    <img className="resume" src={"/images/NicholasEMendez9922.pdf"} alt="my-resume"></img>
                 </a>
 
             </div>

@@ -5,16 +5,14 @@ import React from "react";
 function About() {
     return (
         <div>
-            <p className="content">  </p>
+            <p className="card"> About Me </p>
             <hr />
             <img className="my-photo" src={process.env.PUBLIC_URL + '/images/my-photo.jpeg'} alt="Nicholas E Mendez" />
             <p className="content">
-                Hello my name is Nicholas Mendez, I'm currently studying to become a full stack developer, I'm interested in UI and revamping applications to 
-                fit into the new technological age
+                Hello! My name is Nicholas Mendez, I'm a recent Web Development Bootcamp graduate. Please explore my portfolio and reach out to me using the links below for further inquiries!
             </p>
             <p className="content">
-                After having worked in the medical field for the last 6 years, I wanted to change career paths, and dive into something I've always loved, technology.
-                With strong attention to detail, and a great passion for making things work, I believe I can be a great asset to any team.
+                My background: The last 6 years I've spent working in the healthcare field. Now having my new-found education in technology, I'm looking to change paths and move forward with a new career in web development and information technology.
             </p>
         </div>
     );

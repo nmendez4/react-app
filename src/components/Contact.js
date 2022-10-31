@@ -40,19 +40,20 @@ function Contact() {
 
     return (
         <div>
-            <p className="content">Contact Me</p>
+            <p className="card">Contact Me</p>
+            <p className="card">Please include your full name and company/business in the message below, thank you!</p>
             <hr />
             <form id="contact-form" onSubmit={handleSubmit}>
                 <div className="field">
-                    <label className="label" htmlFor="name">name</label>
+                    <label className="label" htmlFor="name">Name:</label>
                     <input className="input" type="text" name="name" defaultValue={name} onBlur={handleChange} />
                 </div>
                 <div className="field">
-                    <label className="label" htmlFor="email">Email</label>
+                    <label className="label" htmlFor="email">Email:</label>
                     <input className="input" type="email" name="email" defaultValue={email} onBlur={handleChange}/>
                 </div>
                 <div className="field">
-                    <label className="label" htmlFor="message">Message</label>
+                    <label className="label" htmlFor="message">Message:</label>
                     <input className="textarea" name="message" rows="5" defaultValue={message} onBlur={handleChange}/>
                 </div>
                 {errorMessage && (

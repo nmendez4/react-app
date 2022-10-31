@@ -7,17 +7,17 @@ function Footer() {
         <footer>
             <div className="card">
                 <p>
-                    <strong>My Web Development Portfolio</strong> built with React! by{" "}
-                    <a href="https://github.com/nmendez4" target="_blank" rel="noreferrer">
+                    <strong>My Web Development Portfolio</strong> built with JavaScript and React! by{" "}
+                    <a href="https://nmendez4.github.io/react-app/#about" target="_blank" rel="noreferrer">
                         Nicholas E Mendez
                     </a>
                     .
                     <hr />
-                    <a href="https://www.linkedin.com/in/nicholas-mendez-5nem94/" target="_blank" rel="noreferrer">
+                    <a href="https://www.linkedin.com/in/nicholas-e-mendez5/" target="_blank" rel="noreferrer">
                         LinkedIn
                     </a>{" "} | {" "}{" "}
-                    <a href="https://www.stackoverflow.com" target="_blank" rel="noreferrer">
-                        My Saving Grace
+                    <a href="https://www.github.com/nmendez4" target="_blank" rel="noreferrer">
+                        GitHub
                     </a>
                 </p>
             </div>
