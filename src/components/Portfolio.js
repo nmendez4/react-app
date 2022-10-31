@@ -4,7 +4,7 @@ import React from "react";
 import Project from "./Project";
 
 const projects = [
-    // input projects/module homework here 4-5 should be plenty
+    // portfolio project input here
     {
         id: 0,
         title: "Just Tech News",
