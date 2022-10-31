@@ -16,8 +16,10 @@ SO THAT I can assess whether they're a good candidate for an open position
 
 ## Technologies Used
 - JavaScript
+- HTML
+- CSS
 - React
-- Web-vitals
+- Node.js
 
 ## Screenshot
 ![Screenshot](./public/images/screenshot.png)

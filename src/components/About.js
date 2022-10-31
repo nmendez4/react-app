@@ -5,7 +5,7 @@ import React from "react";
 function About() {
     return (
         <div>
-            <p className="card"> About Me </p>
+            <p className="card"> About Me! </p>
             <hr />
             <img className="my-photo" src={process.env.PUBLIC_URL + '/images/my-photo.jpeg'} alt="Nicholas E Mendez" />
             <p className="content">
